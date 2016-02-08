@@ -1,8 +1,5 @@
-layout_spectrum: 1
-typography_spectrum: 0.3276596
 color:
   saturation: 0.5468085
-  lightness: 0.187234
   brandStrength: 0.4090116
   rhythmicContrast: 0.4808511
   brandColors:
@@ -11,4 +8,19 @@ color:
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
+  lightness: 0.187234
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
+typography_spectrum: 0.3276596
 name: Korean Wonders
